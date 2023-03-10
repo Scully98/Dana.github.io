@@ -1,3 +1,43 @@
-h1 {
-    color:red;
+/* Section Header */
+.navigation {
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: right;
+    color: white;
+}
+
+.navigation li a {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+.navigation li a:hover{
+    color: darkolivegreen;
+}
+
+/* Section Banner */
+.banner {
+    position: fixed;
+    top: -10px;
+    z-index: -1;
+    width: 100%;
+}
+
+/* Section Intro */
+
+/* Main Section */
