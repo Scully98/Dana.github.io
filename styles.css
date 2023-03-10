@@ -99,7 +99,7 @@
 
 .card:hover {
     color: white;
-    background: #429ea6;
+    background: #5386e4;
 }
 
 .card .card-title {
@@ -143,7 +143,7 @@
 }
 
 .cards::-webkit-scrollbar-track {
-    background: sandybrown;
+    background: #fffffa;
 }
 
 @media (min-width: 500px) {
