@@ -199,3 +199,21 @@
         margin-right: 10rem;
     }
 }
+
+@media (min-width: 1600px) {
+    .card {
+        flex-basis: 25%;
+    }
+
+    .card:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .card:first-child {
+        margin-left: 10rem;
+    }
+
+    .card:last-child {
+        margin-right: 10rem;
+    }
+}

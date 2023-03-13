@@ -3,6 +3,12 @@
     <title>Dana's Portfolio Page</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+<script>
+    function myFunction() {
+        console.log(document.getElementById("banner").src);
+        document.getElementById("banner").src = document.getElementById("banner").src.includes("flowers.jpg") ? "./assets/leaves_1920.jpg" : "./assets/flowers.jpg";
+    }
+</script>
 <body style="margin: 50px 0px">
 
 <nav class="navigation">
@@ -23,8 +29,11 @@
 </nav>
 
 <img class="banner"
+     id="banner"
      src="./assets/leaves_1920.jpg"
-     alt="Shows a relaxing background images with green plants."/>
+     alt="Shows a relaxing background images with green plants."
+    onClick="myFunction()"
+/>
 
 <div class="intro">
     <h1>Dana's Portfolio Webpage</h1>
